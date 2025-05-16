@@ -4,5 +4,5 @@ services:
     build: .
     container_name: static_site
     ports:
-      - "80:80"
+      - "8181:80"  # Container's port 80 -> host port 8080
     restart: unless-stopped
